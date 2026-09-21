@@ -55,11 +55,11 @@ node scripts/build-agent-index.mjs
 
 | 来源 | 用途 |
 |---|---|
-| [PRTS wiki](https://prts.wiki/) 罗德岛基建系列 | 机制与设施面板的第一来源（贸易站／制造站／发电站／控制中枢／宿舍／会客室／办公室／加工站／训练室） |
-| [RIIC-Web](https://github.com/KnightCodeSquareMatrix/RIIC-Web) | 干员基建技能原文与术语数据（上游为 arkntools 游戏解包数据） |
-| ArknightsInfraCalc 求解器 | 组合产出锚点的校准与固化（普通产线基准产出、特殊组合自有锚点） |
-| 玩家社区讨论与实测 | 高频问题清单与实战口径 |
-| 作者实测与口述 | 排班、布局、练卡取向等经验性结论 |
+| [PRTS wiki](https://prts.wiki/) 罗德岛基建系列 | 罗德岛基建设施功能与相关内容 |
+| [RIIC-Web](https://github.com/KnightCodeSquareMatrix/RIIC-Web) | 干员基建技能原文与术语数据（上游为 [arkntools/arknights-toolbox-data](https://github.com/arkntools/arknights-toolbox-data) 游戏解包数据） |
+| ArknightsInfraCalc 求解器 | [排班算法](docs/4-排班算法/README.md) 模块的依据 |
+| 玩家社区讨论与实测 | 高频问题清单与部分组合表现 |
+| 作者实测与口述 | 组合体系、排班、布局、练卡取向等经验性结论 |
 
 数值口径：产出数字以《产出常数表》为唯一注册处，跨资源换算只沿已注册关系执行；社区口径与实测口径在正文中分别标注来源（front matter 的 `source` 字段）。
 
@@ -83,6 +83,8 @@ node scripts/build-agent-index.mjs
 
 非官方资料，与鹰角网络无关。数值以游戏内实际为准，社区口径部分可能存在版本滞后；据此做出的游戏内决策请自行判断。
 
+版权声明：知识库内的文本原文等游戏内容，仅用于更好地表现游戏资料，其版权属于上海鹰角网络科技有限公司及其关联公司。
+
 ## 许可
 
-[CC BY 4.0](LICENSE) —— 转载请注明出处。
+本仓库采用分区许可，详见 [LICENSE](LICENSE)：整体与原创内容采用 [CC BY 4.0](LICENSES/CC-BY-4.0.txt)，PRTS 来源材料采用 [CC BY-NC-SA 4.0](LICENSES/CC-BY-NC-SA-4.0.txt)；游戏内容版权归上海鹰角网络科技有限公司及其关联公司。转载请注明出处。
