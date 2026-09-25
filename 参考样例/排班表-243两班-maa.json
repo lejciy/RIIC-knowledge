@@ -1,0 +1,383 @@
+{
+  "title": "手动排班 · 243",
+  "description": "由可露希尔基建终端手动排班生成",
+  "planTimes": "2班",
+  "plans": [
+    {
+      "name": "班次 1",
+      "duration": 720,
+      "rooms": {
+        "control": [
+          {
+            "operators": [
+              "八幡海铃",
+              "夕",
+              "焰尾",
+              "薇薇安娜",
+              "阿斯卡纶"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          }
+        ],
+        "trading": [
+          {
+            "operators": [
+              "伺夜",
+              "但书",
+              "贝洛内"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false,
+            "product": "LMD"
+          },
+          {
+            "operators": [
+              "可露希尔",
+              "吉星",
+              "黑键"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false,
+            "product": "LMD"
+          }
+        ],
+        "manufacture": [
+          {
+            "operators": [
+              "砾",
+              "迷迭香",
+              "阿罗玛"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false,
+            "product": "Pure Gold"
+          },
+          {
+            "operators": [
+              "槐琥",
+              "灰毫",
+              "远牙"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false,
+            "product": "Battle Record"
+          },
+          {
+            "operators": [
+              "弑君者",
+              "断罪者",
+              "酒神"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false,
+            "product": "Battle Record"
+          },
+          {
+            "operators": [
+              "森蚺",
+              "清流",
+              "温蒂"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false,
+            "product": "Pure Gold"
+          }
+        ],
+        "power": [
+          {
+            "operators": [
+              "承曦格雷伊"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          },
+          {
+            "operators": [
+              "缪尔赛思"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          },
+          {
+            "operators": [
+              "格雷伊"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          }
+        ],
+        "meeting": [
+          {
+            "operators": [
+              "伊内丝",
+              "陈"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          }
+        ],
+        "dormitory": [
+          {
+            "operators": [
+              "菲亚梅塔",
+              "塑心",
+              "伊芙利特",
+              "塞雷娅",
+              "梅尔"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": true
+          },
+          {
+            "operators": [],
+            "sort": true,
+            "skip": false,
+            "autofill": true
+          },
+          {
+            "operators": [],
+            "sort": true,
+            "skip": false,
+            "autofill": true
+          },
+          {
+            "operators": [],
+            "sort": true,
+            "skip": false,
+            "autofill": true
+          }
+        ],
+        "processing": [
+          {
+            "operators": [
+              "赫默"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          }
+        ],
+        "hire": [
+          {
+            "operators": [
+              "艾雅法拉"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          }
+        ]
+      },
+      "Fiammetta": {
+        "enable": true,
+        "target": "但书",
+        "order": "pre"
+      },
+      "drones": {
+        "enable": true,
+        "room": "manufacture",
+        "index": 1,
+        "rule": "all",
+        "order": "pre"
+      }
+    },
+    {
+      "name": "班次 2",
+      "duration": 720,
+      "rooms": {
+        "control": [
+          {
+            "operators": [
+              "斩业星熊",
+              "涤火杰西卡",
+              "灵知",
+              "诗怀雅",
+              "维什戴尔"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          }
+        ],
+        "trading": [
+          {
+            "operators": [
+              "孑",
+              "琳琅诗怀雅",
+              "银灰"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false,
+            "product": "LMD"
+          },
+          {
+            "operators": [
+              "柏喙",
+              "巫恋",
+              "龙舌兰"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false,
+            "product": "LMD"
+          }
+        ],
+        "manufacture": [
+          {
+            "operators": [
+              "夜烟",
+              "斑点",
+              "苍苔"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false,
+            "product": "Pure Gold"
+          },
+          {
+            "operators": [
+              "水月",
+              "玛露西尔",
+              "香草"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false,
+            "product": "Battle Record"
+          },
+          {
+            "operators": [
+              "刻俄柏",
+              "帕拉斯",
+              "红云"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false,
+            "product": "Battle Record"
+          },
+          {
+            "operators": [
+              "多萝西",
+              "娜斯提",
+              "淬羽赫默"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false,
+            "product": "Pure Gold"
+          }
+        ],
+        "power": [
+          {
+            "operators": [
+              "海霓"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          },
+          {
+            "operators": [
+              "澄闪"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          },
+          {
+            "operators": [
+              "烛煌"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          }
+        ],
+        "meeting": [
+          {
+            "operators": [
+              "红",
+              "赤刃明霄陈"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          }
+        ],
+        "dormitory": [
+          {
+            "operators": [
+              "菲亚梅塔"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": true
+          },
+          {
+            "operators": [],
+            "sort": true,
+            "skip": false,
+            "autofill": true
+          },
+          {
+            "operators": [],
+            "sort": true,
+            "skip": false,
+            "autofill": true
+          },
+          {
+            "operators": [],
+            "sort": true,
+            "skip": false,
+            "autofill": true
+          }
+        ],
+        "processing": [
+          {
+            "operators": [],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          }
+        ],
+        "hire": [
+          {
+            "operators": [
+              "遥"
+            ],
+            "sort": true,
+            "skip": false,
+            "autofill": false
+          }
+        ]
+      },
+      "Fiammetta": {
+        "enable": true,
+        "target": "巫恋",
+        "order": "pre"
+      },
+      "drones": {
+        "enable": true,
+        "room": "trading",
+        "index": 1,
+        "rule": "all",
+        "order": "pre"
+      }
+    }
+  ]
+}

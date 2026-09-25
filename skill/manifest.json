@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": [
+    { "id": "retrieval", "title": "检索与消歧", "path": "skill/skill-1-检索路由与歧义消解.md", "purpose": "俗称、技能等价与组合歧义的取证流程" },
+    { "id": "substitution", "title": "缺员替代", "path": "skill/skill-3-缺员替代与组合降级.md", "purpose": "缺员、练度不足、组合分支与互斥检查" },
+    { "id": "comparison", "title": "组合选型", "path": "skill/skill-4-组合对比与场景选型.md", "purpose": "按已记载锚点、条件和互斥比较组合；不现场推算多级数值" },
+    { "id": "boundaries", "title": "能力边界", "path": "skill/skill-6-边界识别与转介.md", "purpose": "按宿主实际工具处理产品操作与能力限制" },
+    { "id": "training", "title": "练卡取舍", "path": "skill/skill-7-练卡取舍与回本判断.md", "purpose": "培养优先级、目标练度和已有回本结论；不现场核算回本周期" },
+    { "id": "schedule-review", "title": "排班表审查", "path": "skill/skill-9-排班表审查.md", "purpose": "排班表体检：组合启用与互斥、错班与心情可持续、锚点对照，输出明确错误与改进点" }
+  ]
+}
